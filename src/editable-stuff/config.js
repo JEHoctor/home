@@ -43,7 +43,7 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: "https://avatars.githubusercontent.com/u/28733243"),
+  imageLink: "https://avatars.githubusercontent.com/u/28733243",
   imageSize: 440,
   message:
     "Hi, I'm James Hoctor. I'm a Data Scientist with an MS in Computer Science from Duke, and a BS in Mathematics from RPI. I enjoy computer/AI art, 3D printing, and competitive coding. My professional interests include NLP, computer vision, and interpretable ML.",
@@ -71,12 +71,12 @@ const leadership = {
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
   images: [
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
+      img: "https://avatars.githubusercontent.com/u/28733243",
       label: "First slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
+      img: "https://avatars.githubusercontent.com/u/28733243",
       label: "Second slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
@@ -127,14 +127,19 @@ const experiences = {
   heading: "Experience",
   data: [
     {
-      role: 'Data Scientist - Infinia ML',// Here Add Company Name
+      role: 'Data Scientist — Infinia ML',// Here Add Company Name
       companylogo: require('../assets/img/infinia.png'),
       date: 'January 2021 – Present',
     },
     {
-      role: 'Research and Development Engineer - Kitware',
-      companylogo: require('../assets/img/kitware.svg'),
+      role: 'Research and Development Engineer — Kitware',
+      companylogo: require('../assets/img/kitware.png'),
       date: '2020',
+    },
+    {
+      role: "Edison Engineering Development Program Intern — General Electric Global Research",
+      companylogo: require('../assets/img/ge_global_research.png'),
+      date: 2019,
     },
   ]
 }

@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.778eeed7.css",
+    "main.js": "/static/js/main.763f83cb.js",
+    "static/js/787.4b24f717.chunk.js": "/static/js/787.4b24f717.chunk.js",
+    "static/media/resume.pdf": "/static/media/resume.01582d0e896b163efc3d.pdf",
+    "static/media/ge_global_research.png": "/static/media/ge_global_research.081d6d6861a8c2e9b500.png",
+    "static/media/infinia.png": "/static/media/infinia.b686d6946ed5b66af9d8.png",
+    "index.html": "/index.html",
+    "main.778eeed7.css.map": "/static/css/main.778eeed7.css.map",
+    "main.763f83cb.js.map": "/static/js/main.763f83cb.js.map",
+    "787.4b24f717.chunk.js.map": "/static/js/787.4b24f717.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.778eeed7.css",
+    "static/js/main.763f83cb.js"
+  ]
+}
